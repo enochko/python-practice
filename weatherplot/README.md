@@ -4,6 +4,7 @@ This script requests the JSON weather observation data from BOM for Melbourne, A
 
 ## To Do - Someday/Maybe
 - Parse and split date properly - currently splitting day by 24 hours. Should split day by date.
+- Handle unusual observation times - BOM does not record observations strictly every 30 minutes. Sometimes, observations are delayed, and these unusual observation times are appended to the end of the x-axis, resulting in random zigzag patterns.
 
 ## To Do - Done
 - Request JSON data from BOM
